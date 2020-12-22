@@ -1,0 +1,120 @@
+body{
+    margin:0;
+}
+
+/* NAVIGATION */
+.navigation{
+    background-color: rgb(26, 40, 58);
+    color: white;
+    width: 100%;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation>a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-left: 1px solid white;
+    border-radius: 8px;
+    
+}
+
+.navigation>a:hover{
+    background-color: rgb(49, 74, 107);
+}
+
+/* CONTENT */
+
+.content{
+    width: 70%;
+    margin: auto;
+}
+
+.content table{
+    width: 100%;
+}
+
+.content th{
+    text-align: left;
+    background-color:  rgb(26, 40, 58);
+    color: white;
+    padding: 5px;
+}
+
+.content td{
+    background-color: rgb(185, 229, 255);
+    padding: 5px;
+}
+
+.content table a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    background-color:  rgb(26, 40, 58);
+}
+
+.content table a:hover{
+    background-color: rgb(49, 74, 107);
+}
+
+
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit{
+    background-color: rgb(185, 229, 255);
+    padding: 10px;
+}
+
+.edit input{
+    padding: 5px;
+}
+
+.edit label{
+    margin-bottom: 5px;
+}
+
+.form-grp{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-grp>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitBtn{
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0;
+    background-color:  green;
+}
+
+.submitBtn:hover{
+    background-color:  rgb(4, 179, 4);
+    cursor: pointer;
+}
+
+.succMsg{
+    background-color: rgb(151, 255, 151);
+    border: 2px solid rgb(1, 92, 1);
+    color: rgb(1, 92, 1);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.movement{
+    background-color: rgb(185, 229, 255);
+    padding: 10px;
+}
